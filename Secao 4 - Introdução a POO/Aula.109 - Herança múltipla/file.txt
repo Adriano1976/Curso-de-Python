@@ -1,0 +1,461 @@
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 FOI DESLIGADO COM SUCESSO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 FOI DESLIGADO COM SUCESSO.
+Error: Pocophone F1 NÃO ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 FOI DESLIGADO COM SUCESSO.
+Error: Pocophone F1 NÃO ESTÁ LIGADO.
+INFO: Pocophone F1 FOI DESCONECTADO COM SUCESSO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 FOI DESLIGADO COM SUCESSO.
+Error: Pocophone F1 NÃO ESTÁ LIGADO.
+INFO: Pocophone F1 FOI DESLIGADO COM SUCESSO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 FOI DESLIGADO COM SUCESSO.
+Error: Pocophone F1 NÃO ESTÁ LIGADO.
+INFO: Pocophone F1 FOI DESCONECTADO COM SUCESSO.
+Error: Pocophone F1 NÃO ESTÁ CONECTADO.
+Error: Pocophone F1 NÃO ESTÁ LIGADO.
+Error: Pocophone F1 NÃO ESTÁ LIGADO.
+Error: Pocophone F1 NÃO ESTÁ CONECTADO.
+Error: Pocophone F1 NÃO ESTÁ LIGADO.
+Error: Pocophone F1 NÃO ESTÁ LIGADO.
+Error: Pocophone F1 NÃO ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+Error: Pocophone F1 NÃO ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+Error: Pocophone F1 NÃO ESTÁ CONECTADO.
+Error: Pocophone F1 NÃO ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 NÃO ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+INFO: Pocophone F1 FOI DESLIGADO COM SUCESSO.
+Error: Pocophone F1 NÃO ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+INFO: Pocophone F1 FOI DESLIGADO COM SUCESSO.
+INFO: Pocophone F1 FOI DESCONECTADO COM SUCESSO.
+Error: Pocophone F1 NÃO ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+INFO: Pocophone F1 FOI DESLIGADO COM SUCESSO.
+INFO: Pocophone F1 FOI DESCONECTADO COM SUCESSO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+Error: Pocophone F1 NÃO ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+INFO: Pocophone F1 FOI DESLIGADO COM SUCESSO.
+INFO: Pocophone F1 FOI DESCONECTADO COM SUCESSO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+Error: Pocophone F1 NÃO ESTÁ CONECTADO.
+Error: Pocophone F1 NÃO ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+INFO: Pocophone F1 FOI DESLIGADO COM SUCESSO.
+INFO: Pocophone F1 FOI DESCONECTADO COM SUCESSO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+Error: Pocophone F1 NÃO ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 NÃO ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+INFO: Pocophone F1 FOI DESLIGADO COM SUCESSO.
+INFO: Pocophone F1 FOI DESCONECTADO COM SUCESSO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+Error: Pocophone F1 NÃO ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+INFO: Pocophone F1 FOI DESCONECTADO COM SUCESSO.
+Error: Pocophone F1 NÃO ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+INFO: Pocophone F1 FOI DESLIGADO COM SUCESSO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+Error: Pocophone F1 NÃO ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+Error: Pocophone F1 NÃO ESTÁ LIGADO.
+Error: Pocophone F1 NÃO ESTÁ CONECTADO.
+Error: Pocophone F1 NÃO ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+Error: Pocophone F1 ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+Error: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+Error: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 NÃO ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+Error: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+Error: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+Error: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+Error: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 FOI DESLIGADO COM SUCESSO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+Error: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 FOI DESLIGADO COM SUCESSO.
+Error: Pocophone F1 NÃO ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+Error: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESLIGADO.
+Error: Pocophone F1 JÁ ESTÁ DESLIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+Error: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESLIGADO.
+Error: Pocophone F1 JÁ ESTÁ DESLIGADO.
+Error: Pocophone F1 ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+Error: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESLIGADO.
+Error: Pocophone F1 JÁ ESTÁ DESLIGADO.
+Error: Pocophone F1 ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+Error: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESLIGADO.
+Error: Pocophone F1 JÁ ESTÁ DESLIGADO.
+Error: Pocophone F1 ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+Error: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESLIGADO.
+Error: Pocophone F1 JÁ ESTÁ DESLIGADO.
+Error: Pocophone F1 ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESLIGADO.
+Error: Pocophone F1 JÁ ESTÁ DESLIGADO.
+Error: Pocophone F1 NÃO ESTÁ LIGADO E NEM CONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 JÁ ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 JÁ ESTÁ CONECTADO.
+Error: Pocophone F1 ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESLIGADO.
+Error: Pocophone F1 JÁ ESTÁ DESLIGADO.
+Error: Pocophone F1 NÃO ESTÁ LIGADO E NEM CONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+Error: Pocophone F1 ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 JÁ ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+INFO: Pocophone F1 JÁ ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESLIGADO.
+Error: Pocophone F1 JÁ ESTÁ DESLIGADO.
+Error: Pocophone F1 NÃO ESTÁ LIGADO E NEM CONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 JÁ ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 JÁ ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 JÁ ESTÁ CONECTADO.
+Error: Pocophone F1 ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESLIGADO.
+Error: Pocophone F1 JÁ ESTÁ DESLIGADO.
+Error: Pocophone F1 NÃO ESTÁ LIGADO E NEM CONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+Error: Pocophone F1 ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESLIGADO.
+Error: Pocophone F1 JÁ ESTÁ DESLIGADO.
+Error: Pocophone F1 NÃO ESTÁ LIGADO E NEM CONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESLIGADO.
+Error: Pocophone F1 JÁ ESTÁ DESLIGADO.
+Error: Pocophone F1 NÃO ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESLIGADO.
+Error: Pocophone F1 JÁ ESTÁ DESLIGADO.
+Error: Pocophone F1 NÃO ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESLIGADO.
+Error: Pocophone F1 JÁ ESTÁ DESLIGADO.
+Error: Pocophone F1 ESTÁ DESLIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESLIGADO.
+Error: Pocophone F1 JÁ ESTÁ DESLIGADO.
+Error: Pocophone F1 ESTÁ DESLIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESLIGADO.
+Error: Pocophone F1 JÁ ESTÁ DESLIGADO.
+Error: Pocophone F1 ESTÁ DESLIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESLIGADO.
+Error: Pocophone F1 JÁ ESTÁ DESLIGADO.
+Error: Pocophone F1 ESTÁ DESLIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESLIGADO.
+Error: Pocophone F1 JÁ ESTÁ DESLIGADO.
+Error: Pocophone F1 ESTÁ DESLIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESLIGADO.
+Error: Pocophone F1 JÁ ESTÁ DESLIGADO.
+Error: Pocophone F1 ESTÁ DESLIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
+INFO: Pocophone F1 ESTÁ CONECTADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESLIGADO.
+Error: Pocophone F1 JÁ ESTÁ DESLIGADO.
+Error: Pocophone F1 ESTÁ DESLIGADO.
+INFO: Pocophone F1 ESTÁ LIGADO.
+Error: Pocophone F1 JÁ ESTÁ CONECTADO.
+INFO: Pocophone F1 ESTÁ DESCONECTADO.
+Error: Pocophone F1 JÁ ESTÁ DESCONECTADO.
