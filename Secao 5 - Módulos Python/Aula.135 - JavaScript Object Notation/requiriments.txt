@@ -1,0 +1,22 @@
+Dumps / Dump
+######################
+Python          JSON
+dict            object
+list, tuple     array
+str             string
+int, float      number
+True
+False
+None            null
+
+Loads / Load
+######################
+JSON            Python
+object          dict
+array           list
+string          str
+number (int)    int
+number (real)   float
+True
+False
+null            None

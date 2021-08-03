@@ -1,4 +1,4 @@
-from Dados import *
+from Dumps import *
 
 print('-----------------------------------------------------------')
 
