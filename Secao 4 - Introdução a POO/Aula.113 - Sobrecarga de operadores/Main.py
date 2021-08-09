@@ -1,5 +1,5 @@
 '''
-- No Python, o comportamento dos operadores é difinido por métodos especiais.
+- No Curso-de-Python, o comportamento dos operadores é difinido por métodos especiais.
 - Vamos alterar o comportamento de operadores com classes definidas pelo usuário.
 '''
 

@@ -1,5 +1,5 @@
 """
-While em Python
+While em Curso-de-Python
 Utilizado para realizar ações enquanto uma condição for verdadeira.
 Requisitos: Entender condições e operadores
 """

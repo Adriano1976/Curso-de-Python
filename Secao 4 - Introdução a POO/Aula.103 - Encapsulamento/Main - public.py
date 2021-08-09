@@ -1,8 +1,8 @@
 '''
 Encapsulamento em outras linguagens: public, protected, private
-Encapsulamento em Python: public ''
-Encapsulamento em Python: protected '_' (public_)
-Encapsulamento em Python: privado '__' (_NOMECLASSE__nometributo)
+Encapsulamento em Curso-de-Python: public ''
+Encapsulamento em Curso-de-Python: protected '_' (public_)
+Encapsulamento em Curso-de-Python: privado '__' (_NOMECLASSE__nometributo)
 
 '''
 

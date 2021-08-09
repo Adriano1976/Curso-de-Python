@@ -1,5 +1,5 @@
 """
-Desempacotamento de listas em Python. Cada variável recebe 1 elemento de uma lista
+Desempacotamento de listas em Curso-de-Python. Cada variável recebe 1 elemento de uma lista
 """
 
 lista = ['Luiz', 'João', 'Maria', 'Adriano', 'Neide', 'Laura', 'Ester', 'Nádja', 'Nildete', 'Mayara']

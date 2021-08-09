@@ -1,4 +1,4 @@
-# Módulos padrão do Python:
+# Módulos padrão do Curso-de-Python:
 # Módutos são arquivos .py (que contém código python) e servem para expandir as funcionalidades padrão da linguagem.
 
 import sys

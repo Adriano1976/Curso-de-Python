@@ -1,4 +1,4 @@
-''' Iterando string com while em Python '''
+''' Iterando string com while em Curso-de-Python '''
 
 frase = 'o rato roeu a roupa do rei de roma'  # Iterável
 tamanho_frase = len(frase)

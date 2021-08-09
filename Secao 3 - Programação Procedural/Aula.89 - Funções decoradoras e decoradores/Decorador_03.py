@@ -38,4 +38,4 @@ print('8ª PASSO: Finalizado printar()')
 #
 # Ou seja, fizemos uma decoração/modificação na função printar().
 # Ao colocar o @decorador em cima de uma função X, o que o
-# interpretador do Python faz é X = decorador(X).
+# interpretador do Curso-de-Python faz é X = decorador(X).

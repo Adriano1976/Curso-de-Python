@@ -5,7 +5,7 @@
 que esse valor é alterado.
 - Aqui, "valor mutável" se refere a qualquer coisa como uma lista, um dicionário ou até mesmo uma
 instância de classe.
-- Como você pode ver, o Python "retém" o valor padrão e o vincula à função de alguma forma. No
+- Como você pode ver, o Curso-de-Python "retém" o valor padrão e o vincula à função de alguma forma. No
 final, usamos um padrão diferente cada vez que a função é chamada
 """
 

@@ -1,4 +1,4 @@
-""" Funções (def) em Python - return - Parte 2 """
+""" Funções (def) em Curso-de-Python - return - Parte 2 """
 
 def funcao(var):
     print('Isso não será executado.')

@@ -1,4 +1,4 @@
-""" Trocando o valor entre variáveis em Python """
+""" Trocando o valor entre variáveis em Curso-de-Python """
 x = 10
 y = 'Luiz'
 z = 'Otávio'

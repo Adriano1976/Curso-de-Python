@@ -1,4 +1,4 @@
-""" Operador terário em Python """
+""" Operador terário em Curso-de-Python """
 
 # Exemplo de uma operação NÃO ternário
 

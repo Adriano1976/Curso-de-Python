@@ -1,5 +1,5 @@
 """
-Lista em Python / fatiamento / append, insert, pop, del, clear, extend, min, max / range
+Lista em Curso-de-Python / fatiamento / append, insert, pop, del, clear, extend, min, max / range
 """
 # índice: 0       1      2    3    4   5   6     7
 lista = ['A', 'Banana', 'C', 'D', 'E', 5, 10.5, True]

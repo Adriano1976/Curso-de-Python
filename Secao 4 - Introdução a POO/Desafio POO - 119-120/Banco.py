@@ -73,7 +73,7 @@ class Conta(ABC):
 
 
 class Banco:
-    """O __slots__ avisa o Python para não usar um dicionário e apenas alocar espaço para um conjunto
+    """O __slots__ avisa o Curso-de-Python para não usar um dicionário e apenas alocar espaço para um conjunto
         fixo de atributos. Existem situações onde não precisa usa-lo, pois terminam herdando de outras
         classes"""
     __slots__ = ['_agencias', '_clientes', '_contas']

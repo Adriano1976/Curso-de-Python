@@ -81,7 +81,7 @@ for var in dir(conta_A):
 
 """
 - Repare que o erro acusa que a classe Conta não possui o atributo __dict__. 
-- Ao atribuir um valor para __slots__, o interpretador do Python vai entender que queremos excluir 
+- Ao atribuir um valor para __slots__, o interpretador do Curso-de-Python vai entender que queremos excluir 
 o __dict__ da classe Conta não sendo possível criar atributos, ou seja, impossibilitando adicionar 
 atributos ao dicionário da classe que é responsável	por armazenar atributos	de instância.
 """

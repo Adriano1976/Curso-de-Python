@@ -2,7 +2,7 @@
 - O método que é usado para obter um valor (o getter) é decorado com @property.
 - O método que é usado para retornar uma cópia (o setter) é decorado com @xxxx.setter.
 - Embora __slots__ seja muito utilizado para não permitir que usuários de nossas classes criem outros atributos,
-ele avisa o Python para não usar um dicionário e apenas alocar espaço para um conjunto fixo de atributos.
+ele avisa o Curso-de-Python para não usar um dicionário e apenas alocar espaço para um conjunto fixo de atributos.
 - Um mix-in	é uma classe que não se destina a ser independente - existe	para adicionar funcionalidade
 extra a	outra classe através de	herança	múltipla.
 - Os programadores,	por	convenção e	para deixar	explícito a	classe como	um mix-in, colocam o termo

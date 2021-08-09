@@ -1,5 +1,5 @@
 """
-Comentários de código em Python
+Comentários de código em Curso-de-Python
 """
 # Início do program
 print('Linha 1')

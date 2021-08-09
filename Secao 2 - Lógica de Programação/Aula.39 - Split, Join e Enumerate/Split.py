@@ -1,5 +1,5 @@
 """
-Split, Join, Enumerate em Python
+Split, Join, Enumerate em Curso-de-Python
 * Split - Dividi uma string # str
 * Count - Conta quantas palavras existem em uma lista
 * strip - Elimina espaço tanto no início como no final da frase.

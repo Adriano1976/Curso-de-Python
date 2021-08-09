@@ -1,4 +1,4 @@
-""" Funções - def em Python (Parte 1) """
+""" Funções - def em Curso-de-Python (Parte 1) """
 def funcao():
     print('Olá mundo!')
 

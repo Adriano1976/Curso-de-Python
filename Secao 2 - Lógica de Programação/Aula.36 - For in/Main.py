@@ -1,4 +1,4 @@
-""" For in em Python Iterando strings com for. Função range (star=o, stop, step=1) """
+""" For in em Curso-de-Python Iterando strings com for. Função range (star=o, stop, step=1) """
 for n in range(0, 100, 8):
     print(n)
 
