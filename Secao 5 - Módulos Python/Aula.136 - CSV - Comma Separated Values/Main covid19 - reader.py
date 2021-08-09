@@ -5,7 +5,7 @@ clientes de e-mail, etc...
 """
 import csv
 
-with open('clientes.csv', 'r', encoding='utf8') as arquivo:
+with open('Casos Diários de Covid-19.csv', 'r') as arquivo:
     dados = csv.reader(arquivo)
     # Reader - Used to open a csv file in the form of a simplified dictionary.
     next(dados)

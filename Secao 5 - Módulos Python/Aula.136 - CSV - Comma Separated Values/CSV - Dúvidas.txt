@@ -1,0 +1,37 @@
+- O arquivo CSV é salvo com apenas "uma coluna". Digo isso entre aspas pois na verdade ele
+está sim separado em mais de uma coluna, só para entendimento CSV significa Comma Separate Values,
+seja, Valores Separados por Virgula.
+Sendo assim, a vírgula é um delimitador desse tipo de arquivo e a coluna é separada por virgula,
+para fazer com que o excel separe as colunas por virgulas tem várias maneiras, a mais fácil (para mim) é:
+
+1 - Abra um arquivo no Excel e clique em “Dados”. Em seguida selecione a opção “De Texto”;
+2 - Selecione o arquivo CSV desejado e clique em “Importar”;
+3 - Depois disso, selecione a opção “Delimitado”. Em seguida, clique em na opção “Avançar”;
+4 - Para que a importação seja feita com sucesso é preciso atentar para um detalhe importante.
+Nesta etapa, é imprescindível selecionar a opção “Vírgula” antes de clicar em “Avançar”.
+Com isso, já é possível perceber na opção “Visualização dos Dados” que as informações começam a aparecer
+de forma legível.;
+5 - Na tela seguinte é disponibilizado um passo considerado opcional. Isso porque alguns arquivos CSV
+transformam vírgulas ( , ) em pontos ( . );
+
+Pronto, agora você tem eles separados em colunas no excel.
+É só o comportamento do arquivo CSV, não é um erro.
+
+---------------------------------------------------------------------------------------
+
+Para salvar uma planilha como um arquivo Texto CSV no Open Office
+
+Quando você exporta um documento de planilha no formato CSV, somente os dados na planilha atual são salvos. Todas as demais informações, inclusive fórmulas e formatação, serão perdidas.
+
+1. Abra a planilha do Calc que você deseja salvar como um arquivo Texto CSV.
+
+Somente a planilha atual pode ser exportada.
+
+2. Escolha Arquivo - Salvar como.
+3. Na caixa Nome do arquivo, digite um nome para seu arquivo.
+4. Na caixa Tipo de arquivo, selecione "Texto CSV".
+5. (Opcional) Defina as opções de campo para o arquivo Texto CSV.
+Selecione Editar configurações do filtro.
+Na caixa de diálogo Exportar arquivos de texto, selecione as opções desejadas.
+Clique em OK.
+6. Clique em Salvar.

@@ -5,14 +5,14 @@ clientes de e-mail, etc...
 """
 import csv
 
-with open('clientes.csv', 'r', encoding='utf8', newline='') as arquivo:
+with open('Casos Diários de Covid-19.csv', 'r', newline='') as arquivo:
     dados = [x for x in csv.DictReader(arquivo)]
     # DictReader - Used to open a csv file in the form of an ordered dictionary.
 
     for dado in dados:
         print(dado)
 
-with open('clientes01.csv', 'w', encoding='utf8', newline='') as arquivo:
+with open('Casos Diários de Coronarirus.csv', 'w', newline='') as arquivo:
     escreve = csv.writer(
         arquivo,
         delimiter=',',
@@ -27,16 +27,24 @@ with open('clientes01.csv', 'w', encoding='utf8', newline='') as arquivo:
             chaves[0],
             chaves[1],
             chaves[2],
-            chaves[3]
+            chaves[3],
+            chaves[4],
+            chaves[5],
+            chaves[6],
+            chaves[7]
         ]
     )
 
     for dado in dados:
         escreve.writerow(
             [
-                dado['Nome'],
-                dado['Sobrenome'],
-                dado['E-mail'],
-                dado['Telefone'],
+                dado['Código'],
+                dado['Cidade'],
+                dado['Descrição'],
+                dado['Casos'],
+                dado['Percentual'],
+                dado['Fator'],
+                dado['%'],
+                dado['Estado']
             ]
         )
