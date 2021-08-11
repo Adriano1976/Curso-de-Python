@@ -1,0 +1,36 @@
+- Eu me deparei com um problema semelhante e tropecei nesta questão. Recebi um erro de
+autenticação SMTP, mas meu nome de usuário / senha estava correto. Aqui está o que consertou.
+Eu li isso:
+
+https://support.google.com/accounts/answer/6010255
+
+- Resumindo, o Google não está permitindo que você faça ‘login’ via smtplib porque sinalizou esse
+tipo de login como "menos seguro", então o que você precisa fazer é acessar este link enquanto
+estiver conectado à sua conta do Google, e permitir o acesso:
+
+https://www.google.com/settings/security/lesssecureapps
+
+- Visto que esteja definido, deve funcionar.
+
+- Se o problema continuar, o erro de autenticação pode ser devido às suas configurações de segurança,
+a verificação em duas etapas, por exemplo. Ele não permitirá que aplicativos de terceiros substituam
+a autenticação.
+
+Faça ‘login’ na sua conta do Google e use estes links:
+Etapa 1 [Link de desativação da verificação em duas etapas]:
+
+https://myaccount.google.com/security?utm_source=OGB&utm_medium=act#signin
+
+Etapa 2: [Link para permitir aplicativos menos seguros]
+
+https://myaccount.google.com/u/1/lesssecureapps?pli=1&pageId=none
+
+Deve estar tudo bem agora.
+
+---------------------------—--------------------------------------------------------------
+
+- (535, b'5.7.8 Error: authentication failed: UGFzc3dvcmQ6') - Para garantir a qualidade do serviço
+de envio de e-mails o UOL Mail Pro só permite o uso de SMTP autenticado.
+
+- Quando uma mensagem é enviada sem autenticação de SMTP configurada no seu programa gerenciador
+de e-mail,
