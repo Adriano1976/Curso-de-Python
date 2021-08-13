@@ -24,4 +24,4 @@ if __name__ == "__main__":
     print()
 
     for direction in Directions:
-        print(direction, direction.value, direction.name)
+        print(direction, direction.value, direction.my_name)

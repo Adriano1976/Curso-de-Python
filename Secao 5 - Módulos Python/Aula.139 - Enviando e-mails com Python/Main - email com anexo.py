@@ -26,7 +26,6 @@ message = MIMEMultipart()
 message["From"] = sender_email
 message["To"] = receiver_email
 message["Subject"] = subject
-message["Bcc"] = receiver_email  # Recommended for mass emails
 
 # Add body to email
 message.attach(MIMEText(body, "plain"))
@@ -54,7 +53,9 @@ message.attach(part)
 text = message.as_string()
 
 # Faça login no servidor usando contexto seguro e envie e-mail
-context = ssl.create_default_context()
-with smtplib.SMTP_SSL("smtps.bol.com.br", 465, context=context) as server:
+with smtplib.SMTP("smtp.live.com", port=587) as server:
+    server.ehlo()
+    server.starttls()
     server.login(sender_email, password)
     server.sendmail(sender_email, receiver_email, text)
+    print('Email enviado com sucesso.')
