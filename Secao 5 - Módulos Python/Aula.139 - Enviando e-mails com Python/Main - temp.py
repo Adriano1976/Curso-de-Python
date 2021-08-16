@@ -43,6 +43,7 @@ with open('IMAGEM.JPG', 'rb') as img:
     img = MIMEImage(img.read())
     msg.attach(img)
 
+# Informando o host e a porta do servidor do email [ HOTMAIL ].
 with smtplib.SMTP(host='smtp.live.com', port=25) as smtp:
     try:
         smtp.ehlo()
