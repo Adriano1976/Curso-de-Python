@@ -1,0 +1,7 @@
+[7004:4856:0822/233147.020:WARNING:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'.", source:  (0)
+[7004:4856:0822/233150.218:INFO:CONSOLE(1)] "A preload for 'https://github.com/webgl-globe/data/data.json' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.", source: https://github.githubassets.com/assets/webgl-globe-8bbbb3d9.js (1)
+[7004:4856:0822/233153.236:INFO:CONSOLE(0)] "The resource https://github.com/webgl-globe/data/data.json was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://github.com/ (0)
+[7004:4856:0822/233153.362:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'.", source:  (0)
+[7004:4856:0822/233157.057:ERROR:device_event_log_impl.cc(214)] [23:31:57.058] Bluetooth: bluetooth_adapter_winrt.cc:1073 Getting Default Adapter failed.
+[7004:4856:0822/233157.073:ERROR:device_event_log_impl.cc(214)] [23:31:57.073] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema não está funcionando. (0x1F)
+[7004:4856:0822/233159.966:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
