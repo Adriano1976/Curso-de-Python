@@ -6,22 +6,21 @@ o outro.
 - As filas podem ter efeitos colaterais em desempenho, porque a cada item alterado, todos os índices
 serão modificados.
 """
-from _collections import deque
-
-livros = deque()
+livros = list()
 livros.append('Livro 1')
 livros.append('Livro 2')
 livros.append('Livro 3')
 livros.append('Livro 4')
 livros.append('Livro 5')
 
-print(f'\nLista de livros: {livros}')
-print(f'\nSaiu o {livros.popleft()}')
+print(f'Lista de livros: {livros}')
 
-nome_livro = livros.popleft()
+livro_removido = livros.pop()
 
-while livros:
-    print(f'Saiu o {nome_livro}')
-    nome_livro = livros.popleft()
+print(f'Lista de livros: {livros}')
+print(f'\nLivro removido: {livro_removido}')
 
-print(f'\nFicou o {nome_livro}')
+livro_removido = livros.pop()
+
+print(f'Lista de livros: {livros}')
+print(f'\nLivro removido: {livro_removido}')
