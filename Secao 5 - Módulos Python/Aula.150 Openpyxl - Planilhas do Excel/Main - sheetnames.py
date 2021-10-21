@@ -1,4 +1,9 @@
 """
+- openpyxl é uma biblioteca Python para ler / gravar arquivos xlsx / xlsm /
+xltx / xltm do Excel 2010.
+- Por padrão, o openpyxl não protege contra explosão quadrática ou ataques
+xml de bilhões de risos. Para se proteger contra esses ataques, instale o
+defusedxml.
 - https://openpyxl.readthedocs.io/en/stable/
 - pip install openpyxl
 - pipenv install openpyxl
