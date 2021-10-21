@@ -29,7 +29,7 @@ class ChromeAuto:
 
     def clica_sign_in(self):
         try:
-            btn_sign_in = self.chrome.find_element_by_link_text('Sign in')
+            btn_sign_in = self.chrome.find_element('Sign in')
             btn_sign_in.click()
         except Exception as e:
             print('Erro ao clicar em Sign in:', e)
@@ -42,9 +42,9 @@ class ChromeAuto:
 
     def faz_login(self):
         try:
-            input_login = self.chrome.find_element_by_id('login_field')
-            input_password = self.chrome.find_element_by_id('password')
-            btn_login = self.chrome.find_element_by_name('commit')
+            input_login = self.chrome.find_element('login_field')
+            input_password = self.chrome.find_element('password')
+            btn_login = self.chrome.find_element('commit')
 
             input_login.send_keys(user_login)
             input_password.send_keys(user_password)

@@ -24,7 +24,7 @@ chrome = webdriver.Chrome(
 
 if __name__ == '__main__':
     chrome.get('https://www.otaviomiranda.com.br/')
-    posts = chrome.find_elements_by_class_name('post-entry')
+    posts = chrome.find_elements('post-entry')
 
     for post in posts:
         titulo = post.find_element_by_css_selector('h3.entry-title')
