@@ -5,6 +5,8 @@ o outro.
 - Fila (queue) - FIFO - first in, first out - Exemplo: Uma fila de banco ou quelquer fila da vida real.
 - As filas podem ter efeitos colaterais em desempenho, porque a cada item alterado, todos os índices
 serão modificados.
+- "append()" - Serve para colocar o objeto na fila.
+- "popleft()" - Serve para retirar o objeto da fila seguindo a ordem de entrada.
 """
 from collections import deque
 

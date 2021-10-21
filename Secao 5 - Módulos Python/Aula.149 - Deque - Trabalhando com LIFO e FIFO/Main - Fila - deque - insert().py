@@ -5,6 +5,8 @@ o outro.
 - Fila (queue) - FIFO - first in, first out - Exemplo: Uma fila de banco ou quelquer fila da vida real.
 - As filas podem ter efeitos colaterais em desempenho, porque a cada item alterado, todos os índices
 serão modificados.
+- "extend" - Serve para inserir um objeto na fila em uma determinada posição ou
+índice da fila.
 """
 from collections import deque
 
