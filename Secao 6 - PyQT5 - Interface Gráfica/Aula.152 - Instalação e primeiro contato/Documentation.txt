@@ -1,0 +1,28 @@
+- "PyQT" é um toolkit desenvolvido em C++ utilizado por vários programadores para
+criação de aplicações GUI (Interface Gráfica). Também inclui diversas
+funcionalidades, como: acesso a base de dados, threads, comunicação de rede,
+etc...
+- "cw" é um CentralWidget, isso é necessário porque QTMainWindows precisa de
+um widget central, não da pra criar sem  (explicado na documentação,
+https://doc.qt.io/qt-5/qmainwindow.html). Não sei te detalhar o motivo
+específico disso, talvez uma escolha dos desenvolvedores.
+
+- "grid" é um QGridLayout, que é o que o nome diz ser, uma grid.
+Uma grid é um sistema de linhas de colunas para organizar os itens.
+Imagine uma grid como uma planilha do excel, por exemplo...
+Eu tenho linhas e colunas e posso adicionar elementos dizendo a
+linha e a coluna onde este elemento vai ficar. Imagine que eu queira
+um elemento na primeira linha, segunda coluna, esse elemento deve
+ficar em (0, 1) na grid. O interessante disso é que os elementos
+ficam sempre alinhados, assim como numa planilha...
+
+- QGridLayout não herda de self.cw, ela recebe o self.cw no seu construtor.
+Esse argumento é o "parent" da grid, o elemento que contém a grid.
+
+- Qual seria a difernça em não chamar o parent no __init__ do super?
+A super.__init__(parent) da a possibilidade da super classe fazer qualquer
+coisa que ela tenha que fazer com "parent". A segunda opção simplesmente
+seta self.parent para parent, eliminando a possibilidade da super classe
+fazer qualquer coisa que ela fosse fazer com "parent".
+
+- pip install pyqt5
