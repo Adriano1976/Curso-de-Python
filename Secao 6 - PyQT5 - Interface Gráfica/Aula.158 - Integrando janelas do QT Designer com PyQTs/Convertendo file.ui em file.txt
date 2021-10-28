@@ -1,0 +1,9 @@
+Como converter arquivo.ui para arquivo.py
+
+- Abrir o prompt cmd e digitar os seguintes comandos sequenciais:
+- cd C:\Users\ADRIANO\AppData\Local\Programs\Python\Python310
+- dir (visualizar pasta Scripts)
+- cd Scripts (entrar na pasta)
+- dir (visualizar arquivo pyuic5.exe)
+- executar pyuic5.exe da seguinte maneira:
+- pyuic5 -x "C:\Users\ADRIANO\Desktop\design.ui" -o "C:\Users\ADRIANO\Desktop\design.py"
