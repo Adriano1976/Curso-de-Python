@@ -4,7 +4,7 @@ ou métodos... Isso pode acelerar o processo... Por tarefas simultâneas isso n�
 serão executadas no mesmo momento, mas por diferentes threads do sistema.
 - Uma outra aplicação também é com interfaces gráficas, geralmente quando você clica em um botão
 que executa uma tarefa pesada, o próprio botão deve "travar" até a tarefa finalizar,
-nesses casos usamos threads para garantir que a thread que manipula a interface vai ficar sempre
+nesses casos usamos threads para garantir que a thread que manipula a 00-Interface vai ficar sempre
 livre para que o usuário possa clicar em botões enquanto outras coisas acontecem ao mesmo tempo.
 """
 

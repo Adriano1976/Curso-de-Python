@@ -12,9 +12,9 @@ gerando 4.
 - O comando "qt.exec_()"  inicia o event loop (um loop que verifica eventos que ocorrem na janela). Quando você
 clica em botões, a ação de clicar dispara um evento que chama a função desejada.
 
-001 - Muda o título a interface;
-002 - Coloca um tamanho fixo da janela da interface;
-003 - Adicionando um grid na interface;
+001 - Muda o título a 00-Interface;
+002 - Coloca um tamanho fixo da janela da 00-Interface;
+003 - Adicionando um grid na 00-Interface;
 004 - Criação do display da calculadora;
 005 - Adiciona o display da calculadora no grid;
 006 - Desabilita a opção do usuário digitar no display da calculadora;
