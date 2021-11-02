@@ -15,12 +15,12 @@ quiser qualquer outro Widget.
 """
 
 import sys
-import interface.design
+import design
 from PyQt5.QtWidgets import QMainWindow, QApplication, QFileDialog
 from PyQt5.QtGui import QPixmap
 
 
-class Novo(QMainWindow, interface.design.Ui_MainWindow):
+class Novo(QMainWindow, design.Ui_MainWindow):
 
     def __init__(self, parent=None):
         super().__init__(parent)
