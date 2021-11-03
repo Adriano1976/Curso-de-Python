@@ -9,13 +9,25 @@ class App(QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
 
-        self.ui.pushButtonEnviar.clicked.connect(self.tratador)
+        # self.objeto.signal.connect(self.slot)
+        self.ui.pushButtonEnviar.clicked.connect(self.enviar)
+        self.ui.pushButtonLimpar.clicked.connect(self.limpar)
 
-    def tratador(self):
+    def enviar(self):
         self.ui.lineEditOutput_1.setText(self.ui.lineEditInput_1.text())
         self.ui.lineEditOutput_2.setText(self.ui.lineEditInput_2.text())
         self.ui.lineEditOutput_3.setText(self.ui.lineEditInput_3.text())
         self.ui.lineEditOutput_4.setText(self.ui.lineEditInput_4.text())
+
+    def limpar(self):
+        self.ui.lineEditInput_1.clear()
+        self.ui.lineEditInput_2.clear()
+        self.ui.lineEditInput_3.clear()
+        self.ui.lineEditInput_4.clear()
+        self.ui.lineEditOutput_1.clear()
+        self.ui.lineEditOutput_2.clear()
+        self.ui.lineEditOutput_3.clear()
+        self.ui.lineEditOutput_4.clear()
 
 
 if __name__ == '__main__':
