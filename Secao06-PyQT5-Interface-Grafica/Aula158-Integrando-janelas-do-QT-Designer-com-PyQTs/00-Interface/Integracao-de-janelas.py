@@ -9,6 +9,9 @@ class App(QMainWindow):
         self.central_widget = QWidget()
         self.grid = QGridLayout(self.central_widget)
 
+        self.janela_filha = None
+        self.btn_fechar_janela = None
+
         self.btn_abrir_janela = QPushButton('Clique em mim')
         self.btn_abrir_janela.setStyleSheet('font-size: 40px;')
         self.grid.addWidget(self.btn_abrir_janela, 0, 0, 1, 1)
