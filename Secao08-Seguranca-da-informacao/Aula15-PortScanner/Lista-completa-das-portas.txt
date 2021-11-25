@@ -1,0 +1,171 @@
+Porta	Descrição
+
+0/TCP,UDP	Reservada.
+1/TCP,UDP	TCPMUX (Serviço de porta TCP multiplexador)
+5/TCP,UDP	RJE (Remote Job Entry - Entrada de trabalho remoto)
+7/TCP,UDP	ECHO protocol
+9/TCP,UDP	DISCARD protocol
+11/TCP,UDP	SYSTAT protocol
+13/TCP,UDP	DAYTIME protocol
+17/TCP,UDP	QOTD (Quote of the Day) protocol
+18/TCP,UDP	Message Send Protocol (Protocolo de envio de mensagem)
+19/TCP,UDP	CHARGEN protocol (Character Generator Protocol - Protocolo de geração de caracter)
+20/TCP	FTP (File Transfer protocol - Protocolo de transferência de arquivo) - data port
+21/TCP	FTP (File Transfer protocol - Protocolo de transferência de arquivo) - control (command) port
+22/TCP,UDP	SSH (Secure Shell - Shell seguro) - Usada para logins seguros, transferência de arquivos e redirecionamento de porta
+23/TCP,UDP	Telnet protocol - Comunicação de texto sem encriptação
+25/TCP,UDP	Comitê Gestor da Internet no Brasil CGI.br
+26/TCP,UDP	RSFTP - protocolo similar ao FTP
+35/TCP,UDP	QMS Magicolor 2 printer
+37/TCP,UDP	TIME protocol (Protocolo de Tempo)
+38/TCP,UDP	Route Access Protocol (Protocolo de Acesso ao roteador)
+39/TCP,UDP	Resource Location Protocol (Protocolo de localização de recursos)
+41/TCP,UDP	Graphics (gráficos)
+42/TCP,UDP	Host Name Server (Servidor do Nome do Host)
+42/TCP,UDP	[3]
+43/TCP	WHOIS (protocolo de consulta de informações de contato e DNSprotocol)
+49/TCP,UDP	TACACS Login Host protocol(Protocolo de Login no Host)
+53/TCP,UDP	DNS (Domain Name System - Sistema de nome de domínio)
+57/TCP	MTP, Mail Transfer Protocol (Protocolo de transferência de e-mail)
+67/UDP	DHCP (Protocolo de configuração dinâmica do Host)
+68/UDP	DHCP
+69/UDP	TFTP(Trivial File Transfer Protocol) (Protocolo de transferência de arquivo trivial)
+70/TCP	Gopher (Protocolo para indexar repositórios)
+79/TCP	Finger protocol
+80/TCP	HTTP (HyperText Transfer Protocol - Procolo de transferência de HiperTexto) - usada para transferir páginas WWW
+80/TCP	HTTP Alternate (HyperText Transfer Protocol - Protocolo de transferência de HiperTexto)
+81/TCP	Skype protocol
+81/TCP	Onion routing ORport
+82/UDP	Torpark - Control Port
+88/TCP	Kerberos (Protocolo de comunicações individuais seguras e identificadas) - authenticating agent
+101/TCP	HOSTNAME
+102/TCP	ISO-TSAP protocol
+107/TCP	Remote Telnet Service (Serviço remoto Telnet)
+109/TCP	POP (Post Office Protocol): Protocolo de Correio Eletrônico, versão 2
+110/TCP	POP3 (Post Office Protocol version 3): Protocolo de Correio Eletrônico, versão 3 - usada para recebimento de e-mail
+111/TCP,UDP	sun protocol (Protocolo da sun)
+113/TCP	IRC para identificar seus usuários
+115/TCP	SFTP, (Simple File Transfer Protocol) (Protocolo de simples transferência de arquivo)
+117/TCP	UUCP-PATH
+118/TCP,UDP	SQL Services
+119/TCP	NNTP (Network News Transfer Protocol) (Protocolo de transferência de notícias na rede) - usada para recebimento de mensagens de newsgroups
+123/UDP	NTP (Network Time Protocol) (Protocolo de tempo na rede) - usada para sincronização de horário
+135/TCP,UDP	EPMAP (End Point Mapper) / Microsoft RPC Locator Service (Microsoft RPC Serviço de localização)
+137/TCP,UDP	NetBIOS NetBIOS Name Service
+138/TCP,UDP	NetBIOS NetBIOS Datagram Service (Serviço de datagrama NetBios)
+139/TCP,UDP	NetBIOS NetBIOS Session Service (Serviço de sessão NetBios)
+143/TCP,UDP	IMAP4 (Internet Message Access Protocol 4) (Protocolo de Acesso a mensagens na Internet) - usada para recebimento de e-mail
+152/TCP,UDP	BFTP, Background File Transfer Program (Protocolo de transferência de arquivo em Background(fundo)
+153/TCP,UDP	SGMP, Simple Gateway Monitoring Protocol (Protocolo de simples monitoramento do gateway)
+156/TCP,UDP	SQL Service (Serviço SQL)
+158/TCP,UDP	DMSP, Distributed Mail Service Protocol (Protocolo de serviço de e-mail distribuído)
+161/TCP,UDP	SNMP (Simple Network Management Protocol) (Protocolo simples de gerenciamento de rede)
+162/TCP,UDP	SNMPTRAP
+170/TCP	Print-srv (Print Server)
+179/TCP	BGP (Border Gateway Protocol)(Protocolo de limite do gateway)
+194/TCP	IRC (Internet Relay Chat)
+201/TCP,UDP	AppleTalk Routing Maintenance
+209/TCP,UDP	The Quick Mail Transfer Protocol (Protocolo de rápida transferência de mail)
+213/TCP,UDP	IPX (Internetwork Packet Exchange) (Troca de pacote na área de trabalho da internet)
+218/TCP,UDP	MPP, Message Posting Protocol (Protocolo de postagem de mensagem)
+220/TCP,UDP	IMAP, Interactive Mail Access Protocol, version 3 (Protocolo de acesso interativo ao mail)
+259/TCP,UDP	ESRO, Efficient Short Remote Operations (Operações remotas de curta eficiência)
+264/TCP,UDP	BGMP, Border Gateway Multicast Protocol
+311/TCP	Apple Server-Admin-Tool, Workgroup-Manager-Tool, (Ferramenta de gerenciamento de workgroup)
+318/TCP,UDP	TSP, Time Stamp Protocol
+323/TCP,UDP	IMMP, Internet Message Mapping Protocol (Protocolo de mapeamento de mensagem da internet)
+383/TCP,UDP	HP OpenView HTTPs Operations Agent
+366/TCP,UDP	SMTP, Simple Mail Transfer Protocol (Protocolo de simples transferência de mail). ODMR, On-Demand Mail Relay
+369/TCP,UDP	Rpc2portmap
+371/TCP,UDP	ClearCase albd
+384/TCP,UDP	A Remote Network Server System (Sistema servidor de rede remota)
+387/TCP,UDP	AURP, AppleTalk Update-based Routing Protocol
+389/TCP,UDP	LDAP (Lightweight Directory Access Protocol)(Protocolo de acesso a diretório lightweight)
+401/TCP,UDP	UPS Uninterruptible Power Supply (Suprimento de potência Ininterruptível)
+411/TCP	Direct Connect (Rede de conexão direta, Conexão direta) Hub port
+412/TCP	Direct Connect Client-To-Client port
+427/TCP,UDP	SLP (Service Location Protocol) (Protocolo de serviço de localização)
+443/TCP	SSL (transmissão segura)(Camada de transporte seguro)
+444/TCP,UDP	SNPP, Simple Network Paging Protocol (Protocolo simples de paging de rede)
+445/TCP	Microsoft-DS (Sasser (vírus), Agobot, Zobotworm
+445/UDP	Microsoft-DS SMB (Bloco de mensagem de servidor) file sharing
+464/TCP,UDP	Kerberos Change/Set password
+465/TCP	SSL - Conflito registrado com protocolo Cisco
+500/TCP,UDP	ISAKMP, IKE-Internet Key Exchange
+502/TCP,UDP	Modbus, Protocol
+512/TCP	exec, Remote Process Execution (Processo de execução remota)
+512/UDP	comsat, together with biff: notifica usuários acerca de novos e-mail's não lidos
+513/TCP	Login
+513/UDP	Who
+514/TCP	rsh protocol(protocolo de shell remoto) - usado para executar linha de comando não interativa em sistema remoto e visualizar a tela de retorno
+514/UDP	syslog protocol - usado para log do sistema
+515/TCP	Line Printer Daemon protocol - usada em servidores de impressão LPD
+517/UDP	Talk
+518/UDP	NTalk
+520/TCP	efs
+520/UDP	Routing - RIP (Protocolo de informação do roteador)
+513/UDP	Router
+524/TCP,UDP	NetWare Core Protocol (NCP) (Protocolo de core do NetWare)
+525/UDP	Timed, Timeserver
+530/TCP,UDP	RPC (Procedimento de chamada remota)
+531/TCP,UDP	AOL Instant Messenger, IRC Mensageiro instantâneo AOL
+532/TCP	netnews
+533/UDP	netwall, For Emergency Broadcasts
+540/TCP	UUCP (Unix-to-Unix Copy Protocol)
+542/TCP,UDP	commerce (Commerce Applications)
+543/TCP	klogin, Kerberos login
+544/TCP	kshell, Kerberos Remote shell
+546/TCP,UDP	DHCPv6 client
+547/TCP,UDP	DHCPv6 server
+548/TCP	AFP (Apple Filing Protocol) (Protocolo de arquivamento da Apple)
+550/UDP	new-rwho, new-who
+554/TCP,UDP	RTSP (Real Time Streaming Protocol) (Protocolo de streaming em tempo real)
+556/TCP	Remotefs, rfs, rfs_server
+560/UDP	rmonitor, Remote Monitor (Monitor remoto)
+561/UDP	monitor
+563/TCP,UDP	NNTP protocol over TLS/SSL (NNTPS)
+587/TCP	email message submission (RFC 2476)
+591/TCP	FileMaker 6.0 Web Sharing (alternativa ao HTTP)
+593/TCP,UDP	HTTP RPC Ep Map
+604/TCP	TUNNEL
+631/TCP,UDP	IPP, (Internet Printing Protocol) (Protocolo de impressão na internet)
+636/TCP,UDP	SSL
+639/TCP,UDP	MSDP, Multicast Source Discovery Protocol (Protocolo de descoberta de fonte multicast)
+646/TCP	LDP, Label Distribution Protocol (Protocolo de distribuição de rótulo)
+647/TCP	DHCP Failover Protocol
+648/TCP	RRP, Registry Registrar Protocol (Protocolo de registro)
+652/TCP	DTCP, Dynamic Tunnel Configuration Protocol (Protocolo de configuração dinâmica de túnel)
+654/TCP	AODV, Ad hoc On-Demand Distance Vector
+665/TCP	sun-dr, Remote Dynamic Reconfiguration (Reconfiguração remota dinâmica)
+666/UDP	first-person shooter
+674/TCP	ACAP, Application Configuration Access Protocol (Protocolo de acesso a configuração da aplicação)
+691/TCP	MS Exchange Routing
+692/TCP	Hyperwave-ISP
+694/UDP	Linux-HA High availability Heartbeat port
+695/TCP	IEEE-MMS-SSL
+698/TCP	OLSR, Optimized Link State Routing
+699/TCP	Access Network
+700/TCP	EPP, Extensible Provisioning Protocol (Protocolo de provisionamento extensível)
+701/TCP	LMP, Link Management Protocol (Protoloco de gerenciamento de link)
+702/TCP	IRIS over BEEP
+706/TCP	SILC, Secure Internet Live Conferencing (Conferência ao vivo da seguraça da internet)
+711/TCP	TDP, Tag Distribution Protocol (Protocolo de distribuição de marcadores)
+712/TCP	TBRPF, Topology Broadcast based on Reverse-Path Forwarding
+720/TCP	SMQP, Simple Message Queue Protocol (Protocolo de simples mensagem em fila)
+749/TCP, UDP	kerberos-adm, Kerberos administration
+750/UDP	Kerberos version IV
+782/TCP	Conserver serial-console management server
+829/TCP	CMP (Certificate Management Protocol)
+860/TCP	iSCSI
+873/TCP	rsync File synchronisation protocol
+901/TCP	Samba Web Administration Tool (SWAT)
+902	VMware Server Console
+904	VMware Server Alternate (se a porta 902 estiver em uso - ex: SUSE linux)
+911/TCP	OpenSSH
+981/TCP	Checkpoint Firewall-1 software
+989/TCP,UDP	FTP Protocol (data) over TLS/SSL
+990/TCP,UDP	FTP Protocol (control) over TLS/SSL
+991/TCP,UDP	NAS (Netnews Admin System)
+992/TCP,UDP	Telnet protocol over TLS/SSL
+993/TCP	SSL (transmissão segura)
+995/TCP	SSL (transmissão segura)Fonte: https://pt.wikipedia.org

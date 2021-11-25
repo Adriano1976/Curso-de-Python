@@ -1,0 +1,18 @@
+- A Biblioteca Random implementa geradores de números pseudoaleatórios para várias distribuições.
+- Está bilbioteca será utilizada no gerador de senhas para randomizar letras e números e a cada execução do
+programa gerar uma nova senha aleatória.
+- O PRINCÍPIO DA AUTENTICAÇÃO visa verificar a entidade e suas credenciais.
+- O PRINCÍPIO DA CONFIDENCIALIDADE visa manter uma informação confidencial.
+- O PRINCÍPIO DA INTEGRIDADE visa proteger a informação de alterações indevidas.
+- O "hash" é como se fosse um identificador único gerado atravês de um algoritmo que vai analisar byte a byte
+de determinado dado para gerar de forma única, um determinado código que só aquele arquivo terá. Se neste mesmo
+arquivo um único bit for alterado, o hosh gerada será diferente.
+- https://md5decrypt.net/en/
+- A Biblioteca "hashlib" implementa uma interface comum para muitos algoritmos de "hash seguro" como SHA1, SHA265,
+MD5 entre outros.
+- Usaremos esta biblioteca em nosso comparador de hashes para comparar dois arquivos.
+- Thread é o processo e no ambiente "multithread", cada processo pode responder a vários solicitações
+concorrentemente ou mesmo simultaneamente.
+- A biblioteca "Multithreading" constrói interfaces de alto nível para processamento usando o módulo Thread,
+de mais baixo nível, ou seja, relação direta com o processador.
+- A Biblioteca "ipaddress" tem a capacidade de criar, manipular endereços IP do tipo IPv4, IPv6 e até redes inteiras.
