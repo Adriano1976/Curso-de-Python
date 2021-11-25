@@ -56,9 +56,9 @@ class Tela:
             )
         )
         if self.arquivo1 is not None:
-            self.msgConfirm = messagebox.showinfo('Informação', 'Arquivo salvo com sucesso!')
             self.arquivo1.write(self.texto)
             self.arquivo1.close()
+            self.msgConfirm = messagebox.showinfo('Informação', 'Arquivo salvo com sucesso!')
         else:
             self.msgErro = messagebox.showwarning('Informação', 'Arquivo não foi salvo!')
 
