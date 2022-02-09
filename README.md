@@ -1,4 +1,6 @@
-![Python-image-with-logo-940x530-1](https://user-images.githubusercontent.com/17755195/128422218-8bb6e95c-b5ac-441c-ae8b-56744d565d57.jpg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/17755195/128422218-8bb6e95c-b5ac-441c-ae8b-56744d565d57.jpg" width="940" title="Curso de Python">  
+</p>
 
 # Programação em Python - Udemy
 
