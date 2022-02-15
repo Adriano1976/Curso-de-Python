@@ -1,0 +1,38 @@
+<!doctype html>
+<!--<html lang="pt">-->
+<!--Não é necessário definir aqui a language pois está em settings-->
+<html>
+<head>
+    <meta
+            charset="UTF-8" ,
+            name="viewport" ,
+            content="width=device-width,
+            user-scalable=no,
+            initial-scale=1.0,
+            maximum-scale=1.0,
+            minimum-scale=1.0" ,
+            http-equiv="X-UA-Compatible" ,
+            content="ie=edge">
+    <title>{% block 'titulo' %}Index Page
+        {% endblock 'titulo' %}</title>
+    <style>
+        body {font-size: 40px;background:blue;color:white;}
+
+    </style>
+<body>
+{% block 'conteudo' %}
+<h1> Index Page</h1>
+<a hhref="home/">Home</a>
+<h3> Adriano Santos </h3>
+<p>
+    Sou Técnico em Informática para Internet pela Universidade Tiradentes na cidade de #Aracaju.
+    Tenho como objetivo a divulgação e criação e idealização dos meus projetos e assim, visualizar
+    as informações de forma clara e objetiva os respectivos dados e informações em forma de gráficos.
+    Portanto, espero que essa exposições tenha alguma utilidade e esclarecimento nas informações
+    exibidas e como são tratados as informações de forma segura e simples.
+</p>
+{% endblock 'conteudo' %}
+
+
+</body>
+</html>
