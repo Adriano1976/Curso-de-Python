@@ -1,0 +1,36 @@
+<!-- Inicializando os Bootstrap core JavaScript que estão na tag 'script' abaixo -->
+{% load static %}
+
+<html lang="pt">
+
+<head>
+
+    <!-- Incluindo o '_head.html' que está na pasta template/parciais -->
+    {% include 'parciais/_head.html' %}
+
+    <title>Agenda</title>
+
+</head>
+
+<body>
+
+<!-- Importando conteúdo do arquivo '_nav.html' da pasta template/parciais/ -->
+{% include 'parciais/_nav.html' %}
+
+<!-- Page Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <!-- Importando conteúdo do arquivo 'index.html' da pasta contatos/templates/contatos/ -->
+            {% block conteudo %} {% endblock %}
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap core JavaScript que estão na pasta template/static/vendor/ -->
+<script src="{% static 'vendor/jquery/jquery.slim.min.js' %}"></script>
+<script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+</body>
+
+</html>
