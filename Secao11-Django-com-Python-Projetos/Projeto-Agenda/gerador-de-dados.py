@@ -32,6 +32,9 @@ for i in range(1, 210):
     categoria_id = randint(1, 4)  # Supondo que você tem 3 categorias, caso não, só alterar o segundo valor.
     telefone = str(randint(888888888, 999999999))
 
-    print(f"INSERT INTO contatos_contato"
-          f" (nome, sobrenome, email, data_criacao, descricao, categoria_id, telefone)"
-          f" VALUES ('{nome}', '{sobrenome}', '{email}', '{data_criacao}', '{descricao}', '{categoria_id}', '{telefone}');")
+    print(
+        f"INSERT INTO contatos_contato"
+        f" (nome, sobrenome, email, data_criacao, descricao, categoria_id, telefone)"
+        f" VALUES ('{nome}', '{sobrenome}', '{email}', '{data_criacao}', '{descricao}', '{categoria_id}', "
+        f"'{telefone}');"
+    )

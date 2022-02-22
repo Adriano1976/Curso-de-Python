@@ -1,7 +1,7 @@
 from django.urls import path
 from . import views
 
-# Como exibir nome ao invez da Id na barra de endereços?
+# Como exibir nome ao invez da Id na barra de endereços? -----------------------------
 
 urlpatterns = [
     path('', views.index, name='index'),

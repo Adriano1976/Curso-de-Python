@@ -2,10 +2,12 @@ from django.shortcuts import render, get_object_or_404
 from django.http import Http404
 from .models import Contato
 from django.core.paginator import Paginator
+from django.db.models import Q, Value
+from django.db.models.functions import Concat
 
 
 # Create your views here.
-# Como exibir nome ao invez da Id na barra de endereços?
+# Como exibir nome ao invez da Id na barra de endereços? ------------------------------------
 
 
 def index(request):
@@ -23,7 +25,7 @@ def index(request):
 
 
 def ver_contato(request, contato_id):
-    contato = get_object_or_404(Contato, id=contato_id)  # modifique aqui
+    contato = get_object_or_404(Contato, id=contato_id)  # modifique aqui -------------------
 
     if not contato.mostrar:
         raise Http404()
@@ -34,9 +36,25 @@ def ver_contato(request, contato_id):
 
 
 def busca(request):
-    contatos = Contato.objects.order_by('-id').filter(
-        mostrar=True
+    termo = request.GET.get('termo')
+
+    if termo is None or not termo:
+        raise Http404()
+
+    campos = Concat('nome', Value(' '), 'sobrenome')
+
+    contatos = Contato.objects.annotate(
+        nome_completo=campos
+    ).filter(
+        Q(nome_completo__icontains=termo) | Q(telefone__icontains=termo)
     )
+
+    # contatos = Contato.objects.order_by('-id').filter(
+    #     Q(nome__icontains=termo) | Q(sobrenome__icontains=termo),
+    #     mostrar=True
+    # )
+
+    # print(contatos.query)
     paginator = Paginator(contatos, 20)
 
     page = request.GET.get('p')
