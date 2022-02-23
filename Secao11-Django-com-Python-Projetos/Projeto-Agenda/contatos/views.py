@@ -12,7 +12,6 @@ from django.contrib import messages
 
 
 def index(request):
-
     contatos = Contato.objects.order_by('-id').filter(
         mostrar=True
     )
@@ -39,32 +38,33 @@ def ver_contato(request, contato_id):
 
 def busca(request):
     termo = request.GET.get('termo')
-
-    if termo is None or not termo:
-        # raise Http404()
-        messages.add_message(
-            request, messages.ERROR, 'Campo termo não pode ficar vazio.'
-        )
-        return redirect('index')
-
     campos = Concat('nome', Value(' '), 'sobrenome')
-
     contatos = Contato.objects.annotate(
         nome_completo=campos
     ).filter(
         Q(nome_completo__icontains=termo) | Q(telefone__icontains=termo) | Q(categoria__nome__icontains=termo)
     )
 
-    # contatos = Contato.objects.order_by('-id').filter(
-    #     Q(nome__icontains=termo) | Q(sobrenome__icontains=termo),
-    #     mostrar=True
-    # )
+    if termo is None or not termo:
+        # raise Http404()
+        messages.add_message(request, messages.ERROR, 'Campo de busca não pode ficar vazio.')
+        return redirect('index')
 
-    paginator = Paginator(contatos, 20)
+    if int(len(contatos)) == 0:
+        messages.add_message(request, messages.ERROR, 'Contato(s) não encontrado(s).')
+        return redirect('index')
 
-    page = request.GET.get('p')
-    contatos = paginator.get_page(page)
+    if int(len(contatos)) != 0:
+        messages.add_message(request, messages.SUCCESS, 'Contato(s) localizado(s) com sucesso.')
 
-    return render(request, 'contatos/busca.html', {
-        'contatos': contatos
-    })
+        # contatos = Contato.objects.order_by('-id').filter(
+        #     Q(nome__icontains=termo) | Q(sobrenome__icontains=termo),
+        #     mostrar=True
+        # )
+
+        paginator = Paginator(contatos, 20)
+
+        page = request.GET.get('p')
+        contatos = paginator.get_page(page)
+
+        return render(request, 'contatos/busca.html', {'contatos': contatos})
