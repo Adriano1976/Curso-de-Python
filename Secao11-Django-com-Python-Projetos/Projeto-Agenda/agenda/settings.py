@@ -119,6 +119,10 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'templates/static')
 ]
+# Cria uma pasta chamada 'static' onde irá ficar todos os arquivos static.
+# Usa-se o comando 'python manage.py collectstatic' no final do projeto.
+STATIC_ROOT = os.path.join('static')
+
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = 'media/'
 
