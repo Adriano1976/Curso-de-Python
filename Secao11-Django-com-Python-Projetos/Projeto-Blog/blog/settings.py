@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 import os.path
+import os
 from pathlib import Path
 from django.contrib.messages import constants
 
@@ -30,15 +31,16 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'posts',
-    'categorias',
-    'comentarios',
+    'posts.apps.PostsConfig',
+    'categorias.apps.CategoriasConfig',
+    'comentarios.apps.ComentariosConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.humanize',
 ]
 
 MIDDLEWARE = [
@@ -107,6 +109,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # https://docs.djangoproject.com/en/4.0/topics/i18n/
 
 LANGUAGE_CODE = 'pt-BR'
+LANGUAGES = [
+    ('pt-br', 'Brazilian Portuguese'),
+]
 
 TIME_ZONE = 'America/Sao_Paulo'
 
@@ -117,8 +122,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
-STATIC_URL = 'static/'
-STATICFILE_DIRS = (os.path.join(BASE_DIR, 'static'),)
+STATIC_URL = '/static/'
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'templates/static'),)
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
@@ -138,3 +144,4 @@ MESSAGE_TAGS = {
 }
 
 INSTALLED_APPS += ('django_summernote',)
+X_FRAME_OPTIONS = 'SAMEORIGIN'
