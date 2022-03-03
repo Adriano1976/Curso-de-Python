@@ -9,9 +9,9 @@ https://docs.djangoproject.com/en/4.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
-import os.path
 import os
 from pathlib import Path
+
 from django.contrib.messages import constants
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.humanize',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
@@ -134,7 +135,6 @@ MEDIA_URL = '/media/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
 MESSAGE_TAGS = {
     constants.ERROR: 'alert-danger',
     constants.WARNING: 'alert-warning',
@@ -145,3 +145,8 @@ MESSAGE_TAGS = {
 
 INSTALLED_APPS += ('django_summernote',)
 X_FRAME_OPTIONS = 'SAMEORIGIN'
+
+try:
+    from .local_settings import *
+except:
+    pass
