@@ -32,7 +32,7 @@ class FormComentario(ModelForm):
                 'placeholder': 'Digite seu e-mail',
                 'class': 'form-control',
             }),
-            'comentario': TextInput(attrs={
+            'comentario': Textarea(attrs={
                 'placeholder': 'Digite seu comenário',
                 'class': 'form-control',
             }),
