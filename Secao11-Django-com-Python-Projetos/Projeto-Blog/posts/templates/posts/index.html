@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% load humanize %}
+{% load filters %}
 
 {% block conteudo %}
 
@@ -29,7 +30,7 @@
                         <small class="text-muted">
                             {{ post.data_post | naturalday | title }}
                             |
-                            {{ post.numero_comentarios }} Comentário(s)
+                            {{ post.numero_comentarios|plural_comentarios }}
                             |
                             {{ post.categoria_post }}
                         </small>
