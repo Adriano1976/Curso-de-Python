@@ -64,11 +64,14 @@
 
             {% for visible_field in form.visible_fields %}
             <div class="form-group">
-                {{ visible_field.label_tag }} <br>
+                {{ visible_field.label_tag }} <br/>
                 {{ visible_field }}
                 {{ visible_field.errors }}
             </div>
             {% endfor %}
+
+            <div class="g-recaptcha" data-sitekey="6LdTwbQeAAAAAHFYlPKLpazr-8C17c0VoJaWeDl1"></div>
+            <br/>
 
             {% include 'parciais/_messages.html' %}
             <input id="envia_comentario" type="submit" class="btn btn-primary" value="Enviar">
