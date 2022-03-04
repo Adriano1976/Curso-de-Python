@@ -1,7 +1,11 @@
+import os.path
+
 from django.db import models
 from categorias.models import Categoria
 from django.contrib.auth.models import User
 from django.utils import timezone
+from django.conf import settings
+from PIL import Image
 
 
 class Post(models.Model):
@@ -18,3 +22,23 @@ class Post(models.Model):
 
     def __str__(self):
         return self.titulo_post
+
+    def save(self, *args, **kwargs):
+        super().save(*args, **kwargs)
+
+        if self.imagem_post:
+            self.resize_image(self.imagem_post.name, 800)
+
+    @staticmethod
+    def resize_image(img_name, new_width):
+        img_path = os.path.join(settings.MEDIA_ROOT, img_name)
+        img = Image.open(img_path)
+        width, height = img.size
+        if width <= new_width:
+            img.close()
+            return
+
+        new_height = round((new_width * height) / width)
+        new_img = img.resize((new_width, new_height), Image.ANTIALIAS)
+        new_img.save(img_path, optimize=True, quality=60)
+        new_img.close()
