@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import redirect
 from django.views.generic.list import ListView
 from django.views.generic.edit import UpdateView
 from django.db.models import Q, Count, Case, When
@@ -9,10 +9,10 @@ from .models import Post
 
 
 class PostIndex(ListView):
-    model = Post
     template_name = 'posts/index.html'
-    paginate_by = 6
     context_object_name = 'posts'
+    model = Post
+    paginate_by = 6
 
     def get_queryset(self):
         qs = super().get_queryset()
@@ -88,5 +88,5 @@ class PostDetalhes(UpdateView):
             comentario.usuario_comentario = self.request.user
 
         comentario.save()
-        messages.success(self.request, 'Comentário enviado com sucesso.')
+        messages.success(self.request, 'Comentário salvo com sucesso e enviado para revisão.')
         return redirect('post_detalhes', pk=post.id)
