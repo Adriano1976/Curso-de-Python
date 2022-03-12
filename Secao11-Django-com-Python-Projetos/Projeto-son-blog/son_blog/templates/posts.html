@@ -1,13 +1,6 @@
-{% extends 'layout.html' %}
-
-<- article class="blog-post" -->
-
-{% block content %}
+{% extends 'home.html' %}
 
 <h2 class="blog-post-title"><a href="posts/{{ post.pk }}">{{ post.title }}</a></h2>
 <p class="blog-post-meta">{{ post.created_at }} | <a href="#">{{ post.author.get_full_name }}</a></p>
 
-{{ post.summary|safe }}
-
-
-{% endblock %}
+{{ post.content|safe }}
