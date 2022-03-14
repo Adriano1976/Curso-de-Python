@@ -20,10 +20,12 @@ from django.conf import settings
 from django.conf.urls.static import static
 from blog import views
 
+namespace = 'blog'
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('ckeditor/', include('ckeditor_uploader.urls')),
 
-    path('', views.home, name='home'),
-    path('posts/<int:post_pk>', views.h_posts, name='h_posts'),
+    path('', views.home),
+    path('posts/<int:post_id>', views.post),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

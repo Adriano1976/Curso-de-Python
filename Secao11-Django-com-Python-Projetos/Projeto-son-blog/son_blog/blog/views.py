@@ -8,6 +8,6 @@ def home(request):
     return render(request, 'home.html', {'posts': posts})
 
 
-def h_posts(request, post_pk):
-    post = Post.objects.get(pk=post_pk)
-    return render(request, 'posts.html', {'post': post})
+def post(request, post_id):
+    post = Post.objects.get(pk=post_id)
+    return render(request, 'post.html', {'post': post})
