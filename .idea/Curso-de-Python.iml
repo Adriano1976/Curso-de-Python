@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Secao11-Django-com-Python-Projetos/Projeto-Enquete/mysite/mysite" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Secao11-Django-com-Python-Projetos/Projeto-Funcionarios/helloworld" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Secao11-Django-com-Python-Projetos/Projeto-son-blog/son_blog/son_blog" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Secao11-Django-com-Python-Projetos/Projeto-E-commerce/loja" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.10 (Curso-de-Python)" jdkType="Python SDK" />
@@ -30,6 +31,7 @@
         <option value="$MODULE_DIR$/Secao11-Django-com-Python-Projetos/Projeto-Funcionarios/website/templates" />
         <option value="$MODULE_DIR$/Secao11-Django-com-Python-Projetos/Projeto-Enquete/mysite/polls/static" />
         <option value="$MODULE_DIR$/Secao11-Django-com-Python-Projetos/Projeto-son-blog/son_blog/templates" />
+        <option value="$MODULE_DIR$/Secao11-Django-com-Python-Projetos/Projeto-Funcionarios/website/templatetags" />
       </list>
     </option>
   </component>

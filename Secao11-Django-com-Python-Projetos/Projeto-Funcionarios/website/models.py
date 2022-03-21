@@ -2,6 +2,8 @@ from django.db import models
 
 
 class Funcionario(models.Model):
+    # Modelo de Funcionários do Sistema
+
     nome = models.CharField(
         max_length=255,
         null=False,
@@ -34,3 +36,6 @@ class Funcionario(models.Model):
     )
 
     objetos = models.Manager()
+
+    def __str__(self):
+        return self.nome

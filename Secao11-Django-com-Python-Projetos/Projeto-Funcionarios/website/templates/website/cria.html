@@ -1,30 +1,72 @@
-<form method="post">
-    {% csrf_token %}
+{% extends "website/_layouts/base.html" %}
 
-    <label for="{{ form.nome.id_for_label }}">
-        Nome
-    </label>
-    {{ form.nome }}
+{% load widget_tweaks %}
 
-    <label for="{{ form.sobrenome.id_for_label }}">
-        Sobrenome
-    </label>
-    {{ form.sobrenome }}
+{% block title %}Cadastro de Funcionários{% endblock %}
 
-    <label for="{{ form.cpf.id_for_label }}">
-        CPF
-    </label>
-    {{ form.cpf }}
+{% block conteudo %}
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Cadastro de Funcionário</h5>
+                    <p class="card-text">
+                        Complete o formulário abaixo para cadastrar
+                        um novo <code>Funcionário</code>.
+                    </p>
+                    <form method="post">
+                        <!-- Não se esqueça dessa tag -->
+                        {% csrf_token %}
 
-    <label for="{{ form.tempo_de_servico.id_for_label }}">
-        Tempo de Serviço
-    </label>
-    {{ form.tempo_de_servico }}
+                        <!-- Nome -->
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Nome</span>
+                            </div>
+                            {% render_field form.nome class+="form-control" %}
+                        </div>
 
-    <label for="{{ form.remuneracao.id_for_label }}">
-        Remuneração
-    </label>
-    {{ form.remuneracao }}
+                        <!-- Sobrenome -->
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Sobrenome</span>
+                            </div>
+                            {% render_field form.sobrenome class+="form-control" %}
+                        </div>
 
-    <button type="submit">Cadastrar</button>
-</form>
+                        <!-- CPF -->
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">CPF</span>
+                            </div>
+                            {% render_field form.cpf class+="form-control" %}
+                        </div>
+
+                        <!-- Tempo de Serviço -->
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Tempo de Serviço</span>
+                            </div>
+                            {% render_field form.tempo_de_servico class+="form-control" %}
+                        </div>
+
+                        <!-- Remuneração -->
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Remuneração</span>
+                            </div>
+                            {% render_field form.remuneracao class+="form-control" %}
+                        </div>
+                        <hr>
+                        <div class="text-right">
+                            <a href="{% url 'website:lista_funcionarios' %}" class="btn btn-outline-primary">Voltar</a>
+                            <button class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
