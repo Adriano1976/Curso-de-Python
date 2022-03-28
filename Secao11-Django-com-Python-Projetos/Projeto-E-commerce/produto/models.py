@@ -7,8 +7,8 @@ import os
 
 class Produto(models.Model):
     nome = models.CharField(max_length=255)
-    descricao_curta = models.TextField(max_length=255)
-    descricao_longa = models.TextField()
+    descricao_curta = models.TextField(max_length=255, verbose_name='Descrição Curta')
+    descricao_longa = models.TextField(verbose_name='Descrição Longa')
     imagem = models.ImageField(upload_to='produto_imagens/%Y/%m/', blank=True, null=True)
     slug = models.SlugField(unique=True, blank=True, null=True)
     preco_marketing = models.FloatField(verbose_name='Preço')
@@ -17,10 +17,12 @@ class Produto(models.Model):
 
     def get_preco_formatado(self):
         return f'R$ {self.preco_marketing:.2f}'.replace('.', ',')
+
     get_preco_formatado.short_description = 'Preço'
 
     def get_preco_promocional_formatado(self):
         return f'R$ {self.preco_marketing_promocional:.2f}'.replace('.', ',')
+
     get_preco_promocional_formatado.short_description = 'Preço Promo.'
 
     @staticmethod
