@@ -1,5 +1,6 @@
 from django.utils.text import slugify
 from django.conf import settings
+from utils import utils
 from django.db import models
 from PIL import Image
 import os
@@ -16,13 +17,11 @@ class Produto(models.Model):
     tipo = models.CharField(default='v', max_length=1, choices=(('V', 'Variação'), ('S', 'Simples'),))
 
     def get_preco_formatado(self):
-        return f'R$ {self.preco_marketing:.2f}'.replace('.', ',')
-
+        return utils.formata_preco(self.preco_marketing)
     get_preco_formatado.short_description = 'Preço'
 
     def get_preco_promocional_formatado(self):
-        return f'R$ {self.preco_marketing_promocional:.2f}'.replace('.', ',')
-
+        return utils.formata_preco(self.preco_marketing_promocional)
     get_preco_promocional_formatado.short_description = 'Preço Promo.'
 
     @staticmethod
