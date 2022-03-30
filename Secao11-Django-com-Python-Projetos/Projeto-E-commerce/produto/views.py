@@ -4,7 +4,6 @@ from django.views.generic.list import ListView
 from django.views.generic.detail import DetailView
 from django.contrib import messages
 from django.views import View
-from pprint import pprint
 from . import models
 
 
@@ -45,7 +44,6 @@ class AdicionarAoCarrinho(View):
         variacao_nome = variacao.nome or ''
         preco_unitario = variacao.preco
         preco_unitario_promocional = variacao.preco_promocional
-        quantidade = 1
         slug = produto.slug
         imagem = produto.imagem
 
@@ -134,6 +132,6 @@ class Carrinho(View):
         return render(self.request, 'produto/carrinho.html', contexto)
 
 
-class Finalizar(View):
+class ResumoDaCompra(View):
     def get(self, *args, **kwargs):
         return HttpResponse('Finalizar')

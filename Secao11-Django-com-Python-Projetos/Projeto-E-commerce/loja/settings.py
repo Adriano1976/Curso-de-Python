@@ -42,10 +42,13 @@ INSTALLED_APPS = [
     'produto.apps.ProdutoConfig',
     'pedido.apps.PedidoConfig',
     'perfil.apps.PerfilConfig',
+    'crispy_forms',
 
     # TODO: Remover debug toolbar
     'debug_toolbar',
 ]
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
