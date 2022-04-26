@@ -6,6 +6,7 @@ import re
 
 
 class Perfil(models.Model):
+    objects = None
     usuario = models.OneToOneField(User, on_delete=models.CASCADE, verbose_name='Usuário')
     idade = models.PositiveIntegerField()
     data_nascimento = models.DateField()
