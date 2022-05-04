@@ -1,10 +1,10 @@
-from django.http import HttpResponse
-from django.shortcuts import render, redirect, reverse, get_object_or_404
-from django.views.generic.list import ListView
-from django.views.generic.detail import DetailView
 from django.contrib import messages
+from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.views import View
+from django.views.generic.detail import DetailView
+from django.views.generic.list import ListView
 from perfil.models import Perfil
+
 from . import models
 
 
@@ -13,6 +13,7 @@ class ListaProdutos(ListView):
     template_name = 'produto/lista.html'
     context_object_name = 'produtos'
     paginate_by = 9
+    ordering = ['-id']
 
 
 class DetalheProduto(DetailView):

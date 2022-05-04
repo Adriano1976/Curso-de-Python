@@ -1,5 +1,5 @@
-from django.db import models
 from django.contrib.auth.models import User
+from django.db import models
 
 
 class Pedido(models.Model):
@@ -24,6 +24,7 @@ class Pedido(models.Model):
 
 
 class ItemPedido(models.Model):
+    objects = None
     pedido = models.ForeignKey(Pedido, on_delete=models.CASCADE)
     produto = models.CharField(max_length=255)
     produto_id = models.PositiveIntegerField()
