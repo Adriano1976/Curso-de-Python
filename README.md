@@ -1,8 +1,8 @@
+# Programação em Python - Udemy
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/17755195/128422218-8bb6e95c-b5ac-441c-ae8b-56744d565d57.jpg" width="940" title="Curso de Python">  
 </p>
-
-# Programação em Python - Udemy
 
 ## Existem diversas razões pelas quais você deve considerar aprender a linguagem de programação Python:
 
